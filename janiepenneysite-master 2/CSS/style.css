@@ -241,55 +241,7 @@ header{
 		margin-bottom: 100px;
 	}
 
-/*mobile*/
 
-    @media only screen and (max-width: 480px){
-    	.janiepenney{
-        font-size:5em;
-        line-height: 1.5
-      }
-      .main img{
-      	width:40%;
-      	margin-left: 30%;
-      }
-      	.lightson{
-      		display:none;
-      	}
-      	.weekly_picks{
-      		display:none;
-      	}
-      	.home{
-      		display:none;
-      	}
-      	.description{
-      		font-size: 1.5em;
-      		line-height: 1.5;
-      	}
-      	.nav{
-      		display:none;
-      	}
-    }
-/*tablet*/
-    @media only screen and (min-width:481px) and (max-width: 1024px)(max-width: 1024px){
-    	 .janiepenney{
-        font-size:7em;
-        line-height: 1.8;
-      }
-      .main img{
-      	width:30%;
-      	margin-left: 40%;
-      }
-      	.lightson{
-      		display:none;
-      	}
-      	.weekly_picks{
-      		display: none;
-      	}
-      	.description{
-      		font-size: 2em;
-      		line-height: 1.5;
-      	}
-    }
 .about-section{
 	height: 710px;
 	width: 100%;
@@ -323,55 +275,7 @@ header{
 			width: 650px;
 		}
 
-/*mobile*/
 
-    @media only screen and (max-width: 480px){
-    	.about-section{
-    		height: 1100px;
-    	}
-      	#aboutme{
-      		font-size:4em;
-      	}
-      	.aboutpic img{
-      		margin-right: 50px;
-      		width: 70%
-      	}
-      	.linebreak{
-      		font-size: 2em;
-      		margin-top: 20px;
-      		margin-bottom: 20px;
-      	}
-      	#about-text{
-      		font-size: 1em;
-      		width: 300px;
-      		margin-left: -40px;
-      	}
-    }
-
-/*tab/*let*/
-
-/*    @media only screen and (max-width: 1024px){
-      	.aboutpic{
-      		margin-top:100px;
-      	}
-      	#aboutme{
-      		font-size:2em;
-      	}
-      	.navtext{
-      		font-size: .5em;
-      		text-align: center;
-      	}
-      	.linebreak{
-      		font-size: 2em;
-      		margin-top: 20px;
-      		margin-bottom: 20px;
-      	}
-      	#about-text{
-      		font-size: 1.2em;
-      		width: 500px;
-      	}
-    }
-*/
 /*WORK*/
 
 .work{
@@ -857,35 +761,7 @@ header{
 }
 
     @media only screen and (max-width: 480px){
-    	.contact-section{
-        font-size:4em;
-      }
- 		.social img{
- 			width:10%;
- 		}
- 		.back{
- 			margin-left: 35%;
- 		}
-
-
-/*mobile*/
-
-    @media only screen and (max-width: 480px){
-    	#work-section{
-        font-size:4em;
-      }
-      .toggle{
-      	display:none;
-      }
-      .col{
-      	width: 100%
-      }
-      .work{
-      	height: 2100px;
-      }
-
- @media only screen and (max-width: 480px) {
-      .hamburger span{
+    	.hamburger span{
         display: block;
         width: 40px;
         height: 7px; 
@@ -910,6 +786,7 @@ header{
       	margin-top: 20px;
       	color: black;
       	border-radius: 25px;
+      	margin-right: 5px;
       }
       .hamburger_about{
       	margin-top: 20px;
@@ -921,4 +798,107 @@ header{
       .hamburger_contact{
       	cursor: pointer;
       }
-    } 
+          	.janiepenney{
+        font-size:5em;
+        line-height: 1.5
+      }
+      .main img{
+      	width:40%;
+      	margin-left: 30%;
+      }
+      	.lightson{
+      		display:none;
+      	}
+      	.weekly_picks{
+      		display:none;
+      	}
+      	.home{
+      		display:none;
+      	}
+      	.description{
+      		font-size: 1.5em;
+      		line-height: 1.5;
+      	}
+      	.nav{
+      		display:none;
+      	}
+    	.about-section{
+    	height: 1100px;
+    	}
+      	#aboutme{
+      		font-size:4em;
+      	}
+      	.aboutpic img{
+      		margin-right: 50px;
+      		width: 70%
+      	}
+      	.linebreak{
+      		font-size: 2em;
+      		margin-top: 20px;
+      		margin-bottom: 20px;
+      	}
+      	#about-text{
+      		font-size: 1em;
+      		width: 300px;
+      		margin-left: -40px;
+      	}
+      	#work-section{
+        font-size:4em;
+      }
+      .toggle{
+      	display:none;
+      }
+      .col{
+      	width: 100%
+      }
+      .work{
+      	height: 2100px;
+      }
+      .contact-section{
+        font-size:4em;
+      }
+ 	  .social img{
+ 			width:10%;
+ 		}
+ 	   .back{
+ 			margin-left: 35%;
+ 		}
+ 	}	
+
+/*tablet*/
+    @media only screen and (min-width:481px) and (max-width: 1024px){
+    	.janiepenney{
+        font-size:6em;
+        line-height: 1.8;
+      }
+      .main img{
+      	width:20%;
+      	margin-left: 37%;
+      }
+      	.lightson{
+      		display:none;
+      	}
+      	.weekly_picks{
+      		display: none;
+      	}
+      	.description{
+      		font-size: 2em;
+      		line-height: 1.5;
+      	}
+      	.about-section{
+      		height:900px;
+      		padding-top: 140px;
+      		margin-top: 500px;
+      	}
+      	.aboutpic img{
+      		text-align: center;
+      		margin-right: 30%;
+      	}
+      	.social img{
+      		width: 5%;
+      	}
+      	.back{
+      		margin-left: 43%;
+      	}
+    }
+
